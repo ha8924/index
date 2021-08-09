@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head >
+
+<meta charset="UTF-8">
+<title>Italia restaurant</title>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body bgcolor="#424242" >
+<div class="container">
+  <div class="header">
+        <div class="menu">
+        <ul>
+        <li><a href="#">ABOUT</a></li>
+            <li><a href="#">MENU</a>
+            <ul>
+                <li>PIZZA</li>
+                <li>PASTA</li>
+                <li>SALADS</li>
+                <li>DESSERTS</li>
+                <li>WINE</li>
+              </ul>
+            </li>
+            <li><a href="#">CARRERS</a></li>
+            <li><a href="#">RECIPES</a></li>
+            <li><a href="#">FIND US</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    <div class="logo"><img src="images/logodw.png" width="45px" hspace="20px">
+    
+    </div>
+  </div>
+  <div class="background">
+      <div class="text"><h3>WELCOME TO</h3>
+                          <h1>ITALIA</h1>
+            <div class="order">See MENU & Order</div>
+            <div class="order1">Table Reservation</div>
+     </div>
+
+       </div>
+  <div class="middle">
+    <h2 style="color: maroon">About us</h2>
+        <div class="middle1">Italia specializes in beautifully crafted individual wood fired pizzas and Italian-inspired dishes. At Italia, our recipe for success is simple – Great food & care makes customers return every time.
+
+<p><b>Fresh, Flavorful and Wood Fired</b></p>
+
+<p>Italia uses the most flavorful tomatoes, cheeses and other fresh locally-sourced ingredients to make our wood fired pizzas and Italian-inspired dishes. Our pizza dough is also made with “secret” ingredients that are hand worked and tossed to ensure that our pizzas have a deliciously thin crispy crust, with a chewy center, topped with the freshest ingredients. They are then fired to perfection in our wood fired oven to seal in flavor and transform our menu items into fine crafted masterpieces. Our pastas, appetizers, salads, gelato, and local craft beers are just a few more reasons to enjoy a meal at Italia.</p> 
+
+<p><b>Order Online for Takeaway / Delivery or Book a Table.</b></p></div>
+        
+  </div>
+    
+    
+    <div class="bg">
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" style="width:100%">
+  <div class="text">20 years of
+experience</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/carolina-cossio-Ucwd8w-JHwM-unsplash.jpg" style="width:100%">
+  <div class="text">Only fresh Italian
+ingredients</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="nadya-spetnitskaya-tOYiQxF9-Ys-unsplash.jpg" style="width:100%">
+  <div class="text">Traditional recipes</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+    
+</script></div>
+        <div class="rong"></div>
+    
+    
+    <div class="experience">
+        <div class="experience1">
+        <div class="experience_1a">
+          <div class="experience_2a">Pizza<br> Pasta<br> Salads &<br> a good<br> Wine...</div>
+          <div class="experience_3a"></div>
+          </div> 
+          <div class="experience_1b">
+            <div class="experience_2b"></div>
+                <div class="experience_3b">A welcome refuge from the bustle of the city, Italia, as it’s affectionately called – offers a full range of flavourful, authentic Italian dishes and is known as one of the best restaurants in Saigon’s prestigious District 1.<br>
+        Helmed by Chef de Cuisine Enrico De Martino, the menu dabbles in regional favourites from north to south – from Wagyu osso buco to home-made pasta crafted with imported Italian flour.<br>
+              The contemporary dining room exudes a distinctively exuberant flair, with walls of vibrant Italian mosaics, elaborate candelabras and a collection of differently styled dining chairs – a creative nod to the 40 distinctive corners of Italy.</div>
+          </div>
+  </div>
+       
+  </div>
+    
+    <div class="transition">
+    <h2 style="color: maroon">Menu</h2>
+        <p>Come take a look at our menu and surround yourself with delicious food.</p>
+    </div>
+    <div class="containerimg">
+    <div class="containerimg1">
+        <div class="containerimg2">
+        <img src="images/pizzaa.jpg" width="285px">
+        </div>
+        <div class="containerimg3">PIZZA</div>
+        </div>
+        <div class="containerimg1">
+        <div class="containerimg2">
+            <img src="images/passta.jpg" width="290px">
+            </div>
+            <div class="containerimg3">PASSTA</div>
+        </div>
+        <div class="containerimg1">
+        <div class="containerimg2">
+            <img src="images/Desserts.jpg" width="290px">
+            </div>
+            <div class="containerimg3">DESSERTS</div>
+        </div>
+        
+    </div>
+    <div class="containerimg">
+    <div class="containerimg1">
+        <div class="containerimg2">
+        <img src="images/salads.jpg" width="300px">
+        </div>
+        <div class="containerimg3">SALAD</div>
+        </div>
+        <div class="containerimg1">
+        <div class="containerimg2">
+            <img src="images/toa-heftiba-vqTkZZ1JtOU-unsplash.jpg" width="410px">
+            </div>
+            <div class="containerimg3">RAVIOLI</div>
+        </div>
+        <div class="containerimg1">
+        <div class="containerimg2">
+            <img src="images/wine....png" width="285px">
+            </div>
+            <div class="containerimg3">WINE</div>
+        </div>
+        </div>
+    
+    <div class="contact0"></div>
+    <div class="contact">
+        
+      <div class="ct_a">
+        <div class="ct_b">
+168 Bui Vien, Pham Ngu Lao Ward, D1, HCM<br>
+
+Tel: 0931.912.750</div>
+        </div>  
+        
+        
+        
+      
+    <div class="contact_a1">
+        <div class="contact_a2">
+          <div class="contact_a3">
+              <div class="contact_a5">
+<h1 style="color: maroon" >Opening hours</h1>
+                  <br><br></div>
+                Monday - Friday<br>
+                8<sup>00</sup> - 16<sup>00</sup><br><br>
+            Saturday<br>
+            8<sup>00</sup> - 15<sup>00</sup>
+            </div>
+        
+            <div class="contact_a4">
+        <br><br>Name<br><br>
+                <hr size="1%" width="550px" color="maroon">
+                Email<br><br>
+                <hr size="1%" width="550px" color="maroon">
+                Phone <br><br>
+                <hr size="1%" width="550px" color="maroon">
+                Subject<br><br>
+                <hr size="1%" width="550px" color="maroon">
+                
+                
+                
+        </div>
+        </div>
+    </div>
+    </div>
+    
+</div>
+</body>
+</html>
