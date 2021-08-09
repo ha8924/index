@@ -1,0 +1,453 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    font-family: adamina;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: auto;
+  background-color: azure;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: maroon;
+  position: relative;
+}
+.logo {
+  width: 20%;
+  height: 50px;
+  background-color: maroon;
+  position: absolute;
+  z-index: 3;
+  left: 100px;
+}
+.header .menu {
+  width: 70%;
+  text-align: right;
+  background-color: maroon;
+  position: absolute;
+  left: 400px;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+    margin: 0;
+    
+}
+.menu ul li {
+  float: left;
+  padding: 19px 25px 13px 25px;
+  position: relative;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.menu ul li:hover {
+ background-color: firebrick;
+  margin: 0px;
+      z-index: 3;
+}
+.menu ul li ul {
+  color: azure;
+  left: 0px;
+  top: 48px;
+  position: absolute;
+    visibility: hidden;
+}
+.menu ul li ul li {
+  width: 134px;
+  background-color: maroon;
+  margin: 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.menu ul li:hover ul {
+  visibility: visible;
+}
+.background {
+  width: 100%;
+  height: 700px;
+  padding: 1px;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+    transition: 20s;
+    background-image: url("../images/background.png");
+    background-size: cover;
+}
+
+
+.background img {
+  width: 100%;
+  height: 700px;
+  transition: 30s;
+}
+.background:hover img {
+  transform: scale(1.3);
+  transition: 30s;
+}
+.background:hover {
+  
+    transition: 10s;
+    background-image: url("../images/oscar-vazquez-0XRg9X8HO4M-unsplash.jpg");
+    background-size: cover;
+        
+}
+
+.background .text {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  color: maroon;
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+
+}
+.background .order {
+  width: 16%;
+  height: 40px;
+  border-radius: 8px;
+  margin: auto;
+  font-size: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: maroon;
+  position: absolute;
+  z-index: 2;
+  color: azure;
+  padding-top: 8px;
+  left: 34%;
+  top: 600px;
+}
+.order:hover {
+  background-color: firebrick;
+}
+.background .order1 {
+  width: 16%;
+  height: 40px;
+  border-radius: 8px;
+  margin: auto;
+  font-size: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: maroon;
+  position: absolute;
+  z-index: 2;
+  color: azure;
+  padding-top: 8px;
+  left: 51%;
+  top: 600px;
+}
+.order1:hover {
+  background-color: firebrick;
+}
+.middle0
+{
+    width: 100%;
+    height: 80px;
+    background-color: azure;
+}
+.middle {
+  width: 100%;
+  height: 280px;
+  background-color: azure;
+  text-align: center;
+}
+.middle1 {
+  width: 65%;
+  height: 300px;
+  background-color: azure;
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: #202020;
+}
+.experience{
+    width: 100%;
+    height: 710px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+.experience1{
+    width: 80%;
+    height: 700px;
+}
+.experience_1a{
+    width: 30%;
+    height: 700px;
+    float: left;
+}
+.experience_1b{
+    width: 70%;
+    height: 700px;
+    float: right;
+}
+.experience_2a{
+    width: 100%;
+    height: 450px;
+    font-size: 70px;
+    }
+.experience_3a{
+    width: 100%;
+    height: 250px; 
+    background-image: url("../images/chef..jpg");
+    background-size: cover;
+    }
+.experience_2b{
+    width: 100%;
+    height: 450px;
+    background-image: url("../images/elevate-snnhGYNqm44-unsplash.jpg");
+    background-size: cover;
+    }
+.experience_3b{
+    width: 97%;
+    height: 220px;
+    margin: 20px 0px 20px 20px;
+    box-sizing: border-box;
+}
+
+.transition
+{
+    width: 100%;
+    height: 100px;
+    background-color: azure;
+    color: #202020;
+    text-align: center;
+    padding-top: 30px;
+    padding-top: 50px;
+   
+}
+.containerimg
+{
+    width: 100%;
+    height: 335px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+.containerimg1
+{
+  width: 20%;
+    height: 310px;
+    background-color: azure;  
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+}
+.containerimg2
+{
+    width: 100%;
+    height: 270px; 
+    float: left;
+    overflow: hidden; 
+    
+}
+.containerimg3
+{
+    width: 60%;
+    height: 38px;
+    background-color: maroon;  
+    float: left;
+    border-radius: 5px;
+    margin: 3% 10% 0% 20%;
+    box-sizing: border-box;
+    align-items: center;
+    color: azure;
+    display: flex;
+    justify-content: center;
+}
+.containerimg2 img
+{
+    transition: 1s;
+}
+.containerimg2:hover img
+{
+   transform: scale(1.5);
+    transition: 1s;
+}
+.containerimg3:hover
+{
+    background-color: firebrick;
+}
+.contact0{
+     width: 100%;
+    height: 100px;
+}
+.contact
+{
+   width: 100%;
+    height: 600px;
+    background-color: azure;
+}
+
+.ct_a{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg");
+    background-size: cover;
+}
+
+
+
+.ct_b{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    line-height: 70px;
+}
+
+
+.contact_a1
+{
+   width: 100%;
+    height: 400px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+.contact_a2{
+    width: 70%;
+    height: 400px;
+    background-color: azure;
+}
+.contact_a3{
+    width: 40%;
+    height: 400px;
+    background-color: azure;
+    float: left;
+    font-size: 20px;
+}
+.contact_a5{
+    width: 100%;
+    height: 90px;
+    background-color: azure;
+    font-size: 25px;
+    
+}
+.contact_a4{
+    width: 55%;
+    height: auto;
+    background-color: azure;
+    float: right;
+    padding: 20px 0px 0px 0px;
+    font-size: 16px;
+    overflow: hidden;
+}
+.rong{
+    width: 100%;
+    height: 100px;
+    background-color: azure;
+}
+/* Slideshow container */
+.slideshow-container {
+  width: 64%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: maroon;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and ( max-width : 300px ){
+  .prev, .next,.text {font-size: 11px}
+}
+.bg{
+    width: 100%;
+    height:auto;
+    background-color: azure;
+}
